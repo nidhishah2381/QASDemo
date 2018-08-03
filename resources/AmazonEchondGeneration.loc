@@ -1,0 +1,5 @@
+#
+#Wed Aug 01 17:23:29 IST 2018
+add.to.cart.button.loc={\"locator\":\"id=add-to-cart-button\",\"desc\":\"add to cart button loc\"}
+productTitle.loc={\"locator\":\"id=productTitle\",\"desc\":\"productTitle loc\"}
+a.button.input.loc={\"locator\":\"xpath=.//*[normalize-space()='Continue']//input\",\"desc\":\"a button input loc\"}

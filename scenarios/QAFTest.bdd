@@ -1,0 +1,12 @@
+SCENARIO: Amazon Shop
+META-DATA: {"description":"recorded scenario"}
+	Given get 'https://www.amazon.com/'
+	When click on 'twotabsearchtextbox.loc'
+	And sendKeys 'echo' into 'twotabsearchtextbox.loc'
+	And submit 'site.search.loc'
+	When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc'
+	Then wait until 'productTitle.loc' to be visible
+	When click on 'add.to.cart.button.loc'
+	When click on 'a.button.input.loc'
+	Then assert 'successMessage' is visible
+END
